@@ -1,0 +1,8 @@
+{
+  "name": "krd-manga-reader-v3",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"seed": "node scripts/seed-accounts.mjs", "serve": "npx http-server . -p 8080 -c-1"},
+  "dependencies": {"@supabase/supabase-js": "^2.57.0"}
+}
